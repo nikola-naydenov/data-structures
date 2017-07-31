@@ -9,9 +9,6 @@ import java.util.Queue;
  * A queue implemented as a CircularBuffer allowing for constant time
  * operations
  * <p>
- * For purities sake I have used an array but you would probably use
- * an array list with a set initial capacity for a real implementation
- * <p>
  * Overwriting of elements is not allowed
  */
 public class CircularBufferQueue<E> implements Queue<E> {
